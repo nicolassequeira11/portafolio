@@ -1,6 +1,13 @@
 $font-first: 'Rubik', sans-serif;
 $font-second: 'Monoton', sans-serif;
 
+$colors:(
+    first: #004aad,
+    second: #212529,
+    third: #15345B,
+    fourth: #ffffff,
+);
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -47,12 +54,12 @@ $font-second: 'Monoton', sans-serif;
 
 .nav-link{
     font-weight: 400;
-    color: black;
+    color: map-get($colors, "second");
     transition: all 0.3s;
 }
 
 .nav-link:hover{
-    color: #004aad;
+    color: map-get($colors, "first");
 }
 
 // Intro
@@ -78,11 +85,13 @@ $font-second: 'Monoton', sans-serif;
     justify-content: center;
     font-size: 3em;
     font-weight: 600;
+    color: map-get($colors, "second");
 }
 
 .subtitle-intro{
     margin: 1em 0 3em 0;
     font-size: 1.2em;
+    color: map-get($colors, "second");;
 }
 
 // Devices
@@ -100,8 +109,8 @@ $font-second: 'Monoton', sans-serif;
 // Presentation
 
 .content-presentation{
-    background-color: #004aad;
-    color: white;
+    background-color: map-get($colors, "first");
+    color: map-get($colors, "fourth");
     font-family: $font-first;
     padding: 8em 0 13em 0;
     text-align: center;
@@ -129,7 +138,7 @@ $font-second: 'Monoton', sans-serif;
     border: 1px #004bad34 solid;
     z-index: 100;
     font-family: $font-first;
-    background-color: white;
+    background-color: map-get($colors, "fourth");
 }
 
 .title-skills{
@@ -151,7 +160,6 @@ $font-second: 'Monoton', sans-serif;
 }
 
 .img-content{
-    background-color: green;
     border-radius: 50%;
     transition: all 0.3s;
     margin: 0.5em;
@@ -224,10 +232,10 @@ $font-second: 'Monoton', sans-serif;
     height: 240px;
     display: flex;
     flex-direction: column;
-    background-color: #15345B;
+    background-color: map-get($colors, "third");
     border-radius: 10px;
     opacity: 0;
-    color: white;
+    color: map-get($colors, "fourth");
     justify-content: center;
     margin: auto;
     transition: all 0.5s;
@@ -242,17 +250,17 @@ $font-second: 'Monoton', sans-serif;
 }
 
 .projects-button{
-    border: 2px solid #004aad;
+    border: 2px solid map-get($colors, "first");
     padding: 0.4em;
     border-radius: 50px;
-    color: white;
-    background-color: #15345B;
+    color: map-get($colors, "fourth");
+    background-color: map-get($colors, "third");
     transition: all 0.3s;
     margin:0 auto 2em;
 }
 
 .projects-button:hover{
-    background-color: #004aad;
+    background-color: map-get($colors, "first");
 }
 
 .projects-button a{
@@ -276,6 +284,7 @@ $font-second: 'Monoton', sans-serif;
 .title-contact{
     font-weight: 600;
     font-size: 2.5em;
+    color: map-get($colors, "second");;
 }
 
 .text-contact{
@@ -303,15 +312,15 @@ form textarea{
 }
 
 form button{
-    border: 2px solid #004aad;
+    border: 2px solid map-get($colors, "first");
     padding: 0.7em;
     border-radius: 50px;
-    color: #004aad;
-    background-color: white;
+    color: map-get($colors, "first");
+    background-color: map-get($colors, "fourth");
     transition: all 0.3s;
 }
 
 form button:hover{
-    color: white;
-    background-color: #004aad;
+    color: map-get($colors, "fourth");
+    background-color: map-get($colors, "first");
 }

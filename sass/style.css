@@ -43,7 +43,7 @@
 
 .nav-link {
   font-weight: 400;
-  color: black;
+  color: #212529;
   transition: all 0.3s;
 }
 
@@ -72,11 +72,13 @@
   justify-content: center;
   font-size: 3em;
   font-weight: 600;
+  color: #212529;
 }
 
 .subtitle-intro {
   margin: 1em 0 3em 0;
   font-size: 1.2em;
+  color: #212529;
 }
 
 .content-devices {
@@ -91,7 +93,7 @@
 
 .content-presentation {
   background-color: #004aad;
-  color: white;
+  color: #ffffff;
   font-family: "Rubik", sans-serif;
   padding: 8em 0 13em 0;
   text-align: center;
@@ -117,7 +119,7 @@
   border: 1px rgba(0, 75, 173, 0.2039215686) solid;
   z-index: 100;
   font-family: "Rubik", sans-serif;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .title-skills {
@@ -139,7 +141,6 @@
 }
 
 .img-content {
-  background-color: green;
   border-radius: 50%;
   transition: all 0.3s;
   margin: 0.5em;
@@ -215,7 +216,7 @@
   background-color: #15345B;
   border-radius: 10px;
   opacity: 0;
-  color: white;
+  color: #ffffff;
   justify-content: center;
   margin: auto;
   transition: all 0.5s;
@@ -232,7 +233,7 @@
   border: 2px solid #004aad;
   padding: 0.4em;
   border-radius: 50px;
-  color: white;
+  color: #ffffff;
   background-color: #15345B;
   transition: all 0.3s;
   margin: 0 auto 2em;
@@ -261,6 +262,7 @@
 .title-contact {
   font-weight: 600;
   font-size: 2.5em;
+  color: #212529;
 }
 
 .text-contact {
@@ -292,11 +294,11 @@ form button {
   padding: 0.7em;
   border-radius: 50px;
   color: #004aad;
-  background-color: white;
+  background-color: #ffffff;
   transition: all 0.3s;
 }
 
 form button:hover {
-  color: white;
+  color: #ffffff;
   background-color: #004aad;
 }/*# sourceMappingURL=style.css.map */
