@@ -324,3 +324,64 @@ form button:hover{
     color: map-get($colors, "fourth");
     background-color: map-get($colors, "first");
 }
+
+// Footer
+
+.content-footer{
+    margin: auto;
+    background-color: map-get($colors, "first");
+    padding: 5em 0;
+    font-family: $font-first;
+}
+
+.content-logo-footer{
+    margin: auto;
+}
+
+.logo-footer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.text-footer{
+    color: map-get($colors, "fourth");
+    margin: auto;
+    text-align: center;
+    padding: 3em 0;
+    font-size: 1.2em;
+}
+
+.content-sm{
+    margin: auto;
+}
+
+.sm-content{
+    margin: auto;
+    width: calc(100%/4);
+    justify-content: center;
+    display: flex;
+}
+
+.img-sm{
+    padding: 1em;
+    margin: auto;
+    transform: scale(1.2);
+    color: map-get($colors, "fourth");
+}
+
+.content-img-sm{
+    background-color: map-get($colors, "first");
+    border-radius: 50%;
+    margin: auto 1em;
+    border: 2px solid #005eda;
+    transition: all 0.4s;
+}
+
+.content-img-sm:hover{
+    background-color: map-get($colors, "fourth");
+}
+
+.link-sm:hover > .img-sm{
+    color: map-get($colors, "first");
+}

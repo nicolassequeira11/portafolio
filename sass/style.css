@@ -301,4 +301,63 @@ form button {
 form button:hover {
   color: #ffffff;
   background-color: #004aad;
+}
+
+.content-footer {
+  margin: auto;
+  background-color: #004aad;
+  padding: 5em 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.content-logo-footer {
+  margin: auto;
+}
+
+.logo-footer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.text-footer {
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  padding: 3em 0;
+  font-size: 1.2em;
+}
+
+.content-sm {
+  margin: auto;
+}
+
+.sm-content {
+  margin: auto;
+  width: 25%;
+  justify-content: center;
+  display: flex;
+}
+
+.img-sm {
+  padding: 1em;
+  margin: auto;
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+.content-img-sm {
+  background-color: #004aad;
+  border-radius: 50%;
+  margin: auto 1em;
+  border: 2px solid #005eda;
+  transition: all 0.4s;
+}
+
+.content-img-sm:hover {
+  background-color: #ffffff;
+}
+
+.link-sm:hover > .img-sm {
+  color: #004aad;
 }/*# sourceMappingURL=style.css.map */
