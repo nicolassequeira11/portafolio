@@ -1,0 +1,25 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$custom-colors: (
+  "html": #e44d26,
+  "css": #379ad6,
+  "js": #f7e018,
+  "sass" : #d06397,
+  "bootstrap" : #7430f9,
+  "github" : #1b1f23,
+  "php" : #7a86b8,
+  "mysql" : #136594,
+  "xampp" : #fb7a24,
+  "jquery" : #0868ac,
+  "photoshop" : #001e36,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+h1{
+    color:red;
+}
