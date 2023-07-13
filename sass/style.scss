@@ -239,7 +239,6 @@ $colors:(
     justify-content: center;
     margin: auto;
     transition: all 0.5s;
-
 }
 
 .projects-title{
@@ -384,4 +383,31 @@ form button:hover{
 
 .link-sm:hover > .img-sm{
     color: map-get($colors, "first");
+}
+
+// Answer
+
+.content-answer{
+    margin: 2em 0 0 0;
+}
+
+.content-answer a{
+    display: flex;
+    width: 100%;
+    padding: 1em;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.content-answer a i{
+    color: map-get($colors, "first");
+    width: fit-content;
+    height: fit-content;
+    transition: all 0.3s;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.content-answer a i:hover{
+    transform: scale(1.2);
 }

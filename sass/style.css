@@ -360,4 +360,31 @@ form button:hover {
 
 .link-sm:hover > .img-sm {
   color: #004aad;
+}
+
+.content-answer {
+  margin: 2em 0 0 0;
+}
+
+.content-answer a {
+  display: flex;
+  width: 100%;
+  padding: 1em;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.content-answer a i {
+  color: #004aad;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: all 0.3s;
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.content-answer a i:hover {
+  transform: scale(1.2);
 }/*# sourceMappingURL=style.css.map */

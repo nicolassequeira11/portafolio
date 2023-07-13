@@ -199,23 +199,32 @@
       <!-- Contact -->
 
       <div class="col-12 col-lg-10 content-contact" id="contact">
-        <h3 class="title-contact">¿Quiere contactarse conmigo?</h3>
-        <p class="text-contact">Gracias por tomarse el tiempo de ponerse en contacto.</p>
+        <h3 class="title-contact">¿Quiere ponerse en contacto conmigo?</h3>
+        <p class="text-contact">Envíame su mensaje a continuación:</p>
         <div class="content-form">
-          <form class="col-12 col-sm-10 col-md-8 col-lg-6 row">
+          <form class="col-12 col-sm-10 col-md-8 col-lg-6 row"
+            action="https://formsubmit.co/ae2ad8f5686b598ed1406f6ba6b0fb9c" method="POST">
+
             <div class="form-group col-12 col-md-6 col-lg-6">
-              <label for="exampleFormControlInput1">Nombre</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
+              <label>Nombre</label>
+              <input type="text" class="form-control" placeholder="Ingrese su nombre" name="Nombre" required>
             </div>
+
             <div class="form-group col-12 col-md-6 col-lg-6">
-              <label for="exampleFormControlInput1">Email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su email">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="Ingrese su email" name="Email" required>
             </div>
+
             <div class="form-group col-12">
-              <label for="exampleFormControlTextarea1">Mensaje</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+              <label>Mensaje</label>
+              <textarea type="text" class="form-control" rows="7" name="Mensaje" required></textarea>
             </div>
-            <button class="col-4">Enviar</button>
+
+            <button type="submit" class="col-4">Enviar</button>
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://nicolassequeira11.github.io/portafolio/answer.html">
+
           </form>
         </div>
       </div>
