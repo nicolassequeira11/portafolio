@@ -302,6 +302,72 @@ $colors:(
     padding: 0.1em;
 }
 
+// Certificates
+
+.certificates{
+    margin: 8em auto 6em;
+    text-align: center;
+    font-family: $font-first;
+}
+
+.title-certificates{
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: 0 auto 1em;
+}
+
+.content-certificates{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto 2em;
+}
+
+.img-certificates{
+    object-fit: cover;
+}
+
+.content-img-effect{
+    display: block;
+    position: fixed;
+    z-index: 3000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(21, 52, 91, 0.3);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.img-effect{
+    width: 90vw;
+    padding: 15%;
+}
+
+.content-img-effect:target{
+    transform: scale(1);
+}
+
+.icon-img-effect{
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: map-get($colors, "first");
+    color: map-get($colors, "fourth");
+    padding: 1em;
+    border-radius: 50%;
+    transition: all 0.2s;
+    border: 2px solid map-get($colors, "fourth");
+}
+
+.icon-img-effect:hover{
+    color: map-get($colors, "first");
+    background-color: map-get($colors, "fourth");
+}
+
 // Contact
 
 .content-contact{
