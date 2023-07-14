@@ -39,7 +39,7 @@
 }
 
 .nav-item {
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .nav-link {
@@ -287,7 +287,7 @@
 }
 
 .certificates {
-  margin: 8em auto 6em;
+  margin: 6em auto;
   text-align: center;
   font-family: "Rubik", sans-serif;
 }
@@ -307,11 +307,13 @@
 .img-certificates {
   -o-object-fit: cover;
      object-fit: cover;
-  transition: all 0.3s ease-in-out;
+  opacity: 0.95;
+  transition: all 0.2s ease-in-out;
 }
 
 .content-certificates:hover > .img-certificates {
   transform: scale(1.05) rotate(-1deg);
+  opacity: 1;
 }
 
 .content-img-effect {
