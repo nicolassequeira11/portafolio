@@ -324,6 +324,11 @@ $colors:(
 
 .img-certificates{
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.content-certificates:hover > .img-certificates{
+    transform: scale(1.05) rotate(-1deg);
 }
 
 .content-img-effect{
