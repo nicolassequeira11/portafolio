@@ -35,6 +35,7 @@
   width: 80%;
   justify-content: end;
   text-align: center;
+  margin-left: 4em;
 }
 
 .nav-item {
@@ -42,13 +43,46 @@
 }
 
 .nav-link {
+  width: -moz-fit-content;
+  width: fit-content;
   font-weight: 400;
   color: #212529;
   transition: all 0.3s;
 }
 
 .nav-link:hover {
-  color: #004aad;
+  color: #15345B;
+}
+
+.content-cv {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #15345B;
+}
+
+.content-cv-mobile {
+  margin: 4em auto 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.content-cv-mobile a {
+  padding: 0.7em;
+}
+
+.cv {
+  transition: all 0.3s;
+  color: #ffffff;
+}
+
+.cv:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.icon-cv {
+  color: #ffffff;
 }
 
 .content-intro {
@@ -92,7 +126,7 @@
 }
 
 .content-presentation {
-  background-color: #004aad;
+  background-color: #15345B;
   color: #ffffff;
   font-family: "Rubik", sans-serif;
   padding: 8em 0 13em 0;
@@ -290,22 +324,22 @@ form textarea {
 }
 
 form button {
-  border: 2px solid #004aad;
+  border: 2px solid #15345B;
   padding: 0.7em;
   border-radius: 50px;
-  color: #004aad;
+  color: #15345B;
   background-color: #ffffff;
   transition: all 0.3s;
 }
 
 form button:hover {
   color: #ffffff;
-  background-color: #004aad;
+  background-color: #15345B;
 }
 
 .content-footer {
   margin: auto;
-  background-color: #004aad;
+  background-color: #15345B;
   padding: 5em 0;
   font-family: "Rubik", sans-serif;
 }
@@ -347,10 +381,10 @@ form button:hover {
 }
 
 .content-img-sm {
-  background-color: #004aad;
+  background-color: #15345B;
   border-radius: 50%;
   margin: auto 1em;
-  border: 2px solid #005eda;
+  border: 2px solid #004aad;
   transition: all 0.4s;
 }
 
@@ -359,7 +393,7 @@ form button:hover {
 }
 
 .link-sm:hover > .img-sm {
-  color: #004aad;
+  color: #15345B;
 }
 
 .content-answer {
@@ -375,7 +409,7 @@ form button:hover {
 }
 
 .content-answer a i {
-  color: #004aad;
+  color: #15345B;
   width: -moz-fit-content;
   width: fit-content;
   height: -moz-fit-content;
@@ -387,4 +421,8 @@ form button:hover {
 
 .content-answer a i:hover {
   transform: scale(1.2);
+}
+
+.content-img-cv {
+  margin: 3em auto;
 }/*# sourceMappingURL=style.css.map */
