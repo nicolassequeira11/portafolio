@@ -207,7 +207,7 @@ $colors:(
 .img-content:hover > .img-skills{
     transform: scale(1.25);
     opacity: 1;
-    rotate: -5grad;
+    rotate: -4grad;
     box-shadow: inset 0 0 35px 5px rgba(0,0,0,0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(0,0,0,0.25);
 }
 
@@ -523,4 +523,6 @@ form button:hover{
 }
 
 .img-cv{
+    padding: 0;
+    border: 10px solid #284d84;
 }
