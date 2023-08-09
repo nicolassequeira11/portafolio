@@ -211,7 +211,6 @@
 
 .projects {
   margin: auto;
-  justify-content: center;
 }
 
 .content-img-projects {
@@ -219,7 +218,7 @@
   border-radius: 10px;
   height: 240px;
   overflow: hidden;
-  margin: 1em 0;
+  margin: 1em auto;
 }
 
 .content-img-projects:hover > .content-hover {
