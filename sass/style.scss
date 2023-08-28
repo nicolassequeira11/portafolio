@@ -17,6 +17,13 @@ $colors:(
 
 // Nav
 
+.navbar{
+    position: sticky;
+    top: -25px;
+    background-color: map-get($colors, "fourth");
+    z-index: 3000;
+}
+
 .navbar-content-logo{
     margin: 30px 0 0 0;
 }
@@ -56,18 +63,40 @@ $colors:(
 .nav-link{
     width: fit-content;
     font-weight: 400;
+    padding: 3px 0 0 0;
     color: map-get($colors, "second");
     transition: all 0.3s;
+    border-bottom: 3px solid rgb(0, 0, 0, 0);
 }
 
 .nav-link:hover{
     color: map-get($colors, "first");
+    animation-name: borderLink;
+    animation-duration: 0.6s;
+}
+
+@keyframes borderLink{
+    0%{
+        border-bottom: 3px solid rgb(0, 74, 173, 0);
+    }
+
+    50%{
+        border-bottom: 3px solid rgb(0, 74, 173, 0.9);     
+    }
+
+    100%{
+        border-bottom: 3px solid rgb(0, 74, 173, 0);
+    }
 }
 
 .content-cv{
     width: fit-content;
     border-radius: 10px;
     background-color: map-get($colors, "first");
+}
+
+.content-cv:hover{
+    background-color: map-get($colors, "third");
 }
 
 .content-cv-mobile{
@@ -86,7 +115,6 @@ $colors:(
 
 .cv:hover{
     color: map-get($colors, "fourth");
-    transform: scale(1.2);
 }
 
 .icon-cv{
@@ -274,7 +302,7 @@ $colors:(
 .projects-title{
     font-weight: 500;
     padding: 1em;
-    margin: 1em auto 1em;
+    margin: 2em auto;
     font-size: 1em;
 }
 
@@ -284,12 +312,14 @@ $colors:(
     border-radius: 50px;
     color: map-get($colors, "fourth");
     background-color: map-get($colors, "first");
-    transition: all 0.3s;
-    margin:0 auto 2em;
+    transition: all 0.6s;
+    margin:0 auto 0.5em;
 }
 
 .projects-button:hover{
     background-color: map-get($colors, "third");
+    animation-name: boton;
+    animation-duration: 0.4s;
 }
 
 .projects-button a{
@@ -299,6 +329,7 @@ $colors:(
 .projects-skills img{
     width: calc(100%/8);
     padding: 0.1em;
+    margin: 2em auto;
 }
 
 // Certificates
@@ -419,12 +450,31 @@ form button{
     border-radius: 50px;
     color: map-get($colors, "first");
     background-color: map-get($colors, "fourth");
-    transition: all 0.3s;
+    transition: all 0.6s;
 }
 
 form button:hover{
     color: map-get($colors, "fourth");
     background-color: map-get($colors, "first");
+    animation-name: boton;
+    animation-duration: 0.5s;
+}
+
+@keyframes boton{
+    0%{
+        outline: 0px solid map-get($colors, "third");
+        outline-offset: 0px;
+    }
+
+    50%{
+        outline: 8px solid map-get($colors, "third");
+        outline-offset: 2px;
+    }
+
+    100%{
+        outline: 2px solid rgb(0, 74, 173, 0.1);
+        outline-offset: 15px;
+    }
 }
 
 // Footer

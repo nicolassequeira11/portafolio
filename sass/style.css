@@ -5,6 +5,13 @@
   scroll-behavior: smooth;
 }
 
+.navbar {
+  position: sticky;
+  top: -25px;
+  background-color: #ffffff;
+  z-index: 3000;
+}
+
 .navbar-content-logo {
   margin: 30px 0 0 0;
 }
@@ -46,19 +53,38 @@
   width: -moz-fit-content;
   width: fit-content;
   font-weight: 400;
+  padding: 3px 0 0 0;
   color: #212529;
   transition: all 0.3s;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
 }
 
 .nav-link:hover {
   color: #15345B;
+  animation-name: borderLink;
+  animation-duration: 0.6s;
 }
 
+@keyframes borderLink {
+  0% {
+    border-bottom: 3px solid rgba(0, 74, 173, 0);
+  }
+  50% {
+    border-bottom: 3px solid rgba(0, 74, 173, 0.9);
+  }
+  100% {
+    border-bottom: 3px solid rgba(0, 74, 173, 0);
+  }
+}
 .content-cv {
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 10px;
   background-color: #15345B;
+}
+
+.content-cv:hover {
+  background-color: #004aad;
 }
 
 .content-cv-mobile {
@@ -78,7 +104,6 @@
 
 .cv:hover {
   color: #ffffff;
-  transform: scale(1.2);
 }
 
 .icon-cv {
@@ -258,7 +283,7 @@
 .projects-title {
   font-weight: 500;
   padding: 1em;
-  margin: 1em auto 1em;
+  margin: 2em auto;
   font-size: 1em;
 }
 
@@ -268,12 +293,14 @@
   border-radius: 50px;
   color: #ffffff;
   background-color: #15345B;
-  transition: all 0.3s;
-  margin: 0 auto 2em;
+  transition: all 0.6s;
+  margin: 0 auto 0.5em;
 }
 
 .projects-button:hover {
   background-color: #004aad;
+  animation-name: boton;
+  animation-duration: 0.4s;
 }
 
 .projects-button a {
@@ -283,6 +310,7 @@
 .projects-skills img {
   width: 12.5%;
   padding: 0.1em;
+  margin: 2em auto;
 }
 
 .certificates {
@@ -400,14 +428,30 @@ form button {
   border-radius: 50px;
   color: #15345B;
   background-color: #ffffff;
-  transition: all 0.3s;
+  transition: all 0.6s;
 }
 
 form button:hover {
   color: #ffffff;
   background-color: #15345B;
+  animation-name: boton;
+  animation-duration: 0.5s;
 }
 
+@keyframes boton {
+  0% {
+    outline: 0px solid #004aad;
+    outline-offset: 0px;
+  }
+  50% {
+    outline: 8px solid #004aad;
+    outline-offset: 2px;
+  }
+  100% {
+    outline: 2px solid rgba(0, 74, 173, 0.1);
+    outline-offset: 15px;
+  }
+}
 .content-footer {
   margin: auto;
   background-color: #15345B;
