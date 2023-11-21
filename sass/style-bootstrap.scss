@@ -3,6 +3,8 @@
 @import "../node_modules/bootstrap/scss/mixins";
 
 $custom-colors: (
+  "react": #53d2fa,
+  "node": #8ac400,
   "html": #e44d26,
   "css": #379ad6,
   "js": #f7e018,
@@ -11,10 +13,7 @@ $custom-colors: (
   "bootstrap" : #7430f9,
   "github" : #1b1f23,
   "mariadb" : #136594,
-  "jquery" : #0868ac,
-  "photoshop" : #001e36,
-  "react": #53d2fa,
-  "node": #8ac400
+  "photoshop" : #001e36
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
