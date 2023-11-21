@@ -37,6 +37,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-react: #53d2fa;
+  --bs-node: #8ac400;
   --bs-html: #e44d26;
   --bs-css: #379ad6;
   --bs-js: #f7e018;
@@ -44,10 +46,7 @@
   --bs-api: #43d3b7;
   --bs-bootstrap: #7430f9;
   --bs-github: #1b1f23;
-  --bs-php: #7a86b8;
-  --bs-mysql: #136594;
-  --bs-xampp: #fb7a24;
-  --bs-jquery: #0868ac;
+  --bs-mariadb: #136594;
   --bs-photoshop: #001e36;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
@@ -57,6 +56,8 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-react-rgb: 83, 210, 250;
+  --bs-node-rgb: 138, 196, 0;
   --bs-html-rgb: 228, 77, 38;
   --bs-css-rgb: 55, 154, 214;
   --bs-js-rgb: 247, 224, 24;
@@ -64,10 +65,7 @@
   --bs-api-rgb: 67, 211, 183;
   --bs-bootstrap-rgb: 116, 48, 249;
   --bs-github-rgb: 27, 31, 35;
-  --bs-php-rgb: 122, 134, 184;
-  --bs-mysql-rgb: 19, 101, 148;
-  --bs-xampp-rgb: 251, 122, 36;
-  --bs-jquery-rgb: 8, 104, 172;
+  --bs-mariadb-rgb: 19, 101, 148;
   --bs-photoshop-rgb: 0, 30, 54;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
@@ -3159,6 +3157,40 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
+.btn-react {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #53d2fa;
+  --bs-btn-border-color: #53d2fa;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #6dd9fb;
+  --bs-btn-hover-border-color: #64d7fb;
+  --bs-btn-focus-shadow-rgb: 71, 179, 213;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #75dbfb;
+  --bs-btn-active-border-color: #64d7fb;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #53d2fa;
+  --bs-btn-disabled-border-color: #53d2fa;
+}
+
+.btn-node {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #8ac400;
+  --bs-btn-border-color: #8ac400;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #9ccd26;
+  --bs-btn-hover-border-color: #96ca1a;
+  --bs-btn-focus-shadow-rgb: 117, 167, 0;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #a1d033;
+  --bs-btn-active-border-color: #96ca1a;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #8ac400;
+  --bs-btn-disabled-border-color: #8ac400;
+}
+
 .btn-html {
   --bs-btn-color: #000;
   --bs-btn-bg: #e44d26;
@@ -3278,24 +3310,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #1b1f23;
 }
 
-.btn-php {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #7a86b8;
-  --bs-btn-border-color: #7a86b8;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #8e98c3;
-  --bs-btn-hover-border-color: #8792bf;
-  --bs-btn-focus-shadow-rgb: 104, 114, 156;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #959ec6;
-  --bs-btn-active-border-color: #8792bf;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #7a86b8;
-  --bs-btn-disabled-border-color: #7a86b8;
-}
-
-.btn-mysql {
+.btn-mariadb {
   --bs-btn-color: #fff;
   --bs-btn-bg: #136594;
   --bs-btn-border-color: #136594;
@@ -3310,40 +3325,6 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #136594;
   --bs-btn-disabled-border-color: #136594;
-}
-
-.btn-xampp {
-  --bs-btn-color: #000;
-  --bs-btn-bg: #fb7a24;
-  --bs-btn-border-color: #fb7a24;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #fc8e45;
-  --bs-btn-hover-border-color: #fb873a;
-  --bs-btn-focus-shadow-rgb: 213, 104, 31;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #fc9550;
-  --bs-btn-active-border-color: #fb873a;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #fb7a24;
-  --bs-btn-disabled-border-color: #fb7a24;
-}
-
-.btn-jquery {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #0868ac;
-  --bs-btn-border-color: #0868ac;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #075892;
-  --bs-btn-hover-border-color: #06538a;
-  --bs-btn-focus-shadow-rgb: 45, 127, 184;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #06538a;
-  --bs-btn-active-border-color: #064e81;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0868ac;
-  --bs-btn-disabled-border-color: #0868ac;
 }
 
 .btn-photoshop {
@@ -3499,6 +3480,40 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
+.btn-outline-react {
+  --bs-btn-color: #53d2fa;
+  --bs-btn-border-color: #53d2fa;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #53d2fa;
+  --bs-btn-hover-border-color: #53d2fa;
+  --bs-btn-focus-shadow-rgb: 83, 210, 250;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #53d2fa;
+  --bs-btn-active-border-color: #53d2fa;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #53d2fa;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #53d2fa;
+  --bs-gradient: none;
+}
+
+.btn-outline-node {
+  --bs-btn-color: #8ac400;
+  --bs-btn-border-color: #8ac400;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #8ac400;
+  --bs-btn-hover-border-color: #8ac400;
+  --bs-btn-focus-shadow-rgb: 138, 196, 0;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #8ac400;
+  --bs-btn-active-border-color: #8ac400;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #8ac400;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #8ac400;
+  --bs-gradient: none;
+}
+
 .btn-outline-html {
   --bs-btn-color: #e44d26;
   --bs-btn-border-color: #e44d26;
@@ -3618,24 +3633,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-php {
-  --bs-btn-color: #7a86b8;
-  --bs-btn-border-color: #7a86b8;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #7a86b8;
-  --bs-btn-hover-border-color: #7a86b8;
-  --bs-btn-focus-shadow-rgb: 122, 134, 184;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #7a86b8;
-  --bs-btn-active-border-color: #7a86b8;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #7a86b8;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #7a86b8;
-  --bs-gradient: none;
-}
-
-.btn-outline-mysql {
+.btn-outline-mariadb {
   --bs-btn-color: #136594;
   --bs-btn-border-color: #136594;
   --bs-btn-hover-color: #fff;
@@ -3649,40 +3647,6 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #136594;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #136594;
-  --bs-gradient: none;
-}
-
-.btn-outline-xampp {
-  --bs-btn-color: #fb7a24;
-  --bs-btn-border-color: #fb7a24;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #fb7a24;
-  --bs-btn-hover-border-color: #fb7a24;
-  --bs-btn-focus-shadow-rgb: 251, 122, 36;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #fb7a24;
-  --bs-btn-active-border-color: #fb7a24;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fb7a24;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #fb7a24;
-  --bs-gradient: none;
-}
-
-.btn-outline-jquery {
-  --bs-btn-color: #0868ac;
-  --bs-btn-border-color: #0868ac;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0868ac;
-  --bs-btn-hover-border-color: #0868ac;
-  --bs-btn-focus-shadow-rgb: 8, 104, 172;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0868ac;
-  --bs-btn-active-border-color: #0868ac;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #0868ac;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #0868ac;
   --bs-gradient: none;
 }
 
@@ -5340,6 +5304,20 @@ textarea.form-control-lg {
   --bs-alert-link-color: var(--bs-dark-text-emphasis);
 }
 
+.alert-react {
+  --bs-alert-color: var(--bs-react-text-emphasis);
+  --bs-alert-bg: var(--bs-react-bg-subtle);
+  --bs-alert-border-color: var(--bs-react-border-subtle);
+  --bs-alert-link-color: var(--bs-react-text-emphasis);
+}
+
+.alert-node {
+  --bs-alert-color: var(--bs-node-text-emphasis);
+  --bs-alert-bg: var(--bs-node-bg-subtle);
+  --bs-alert-border-color: var(--bs-node-border-subtle);
+  --bs-alert-link-color: var(--bs-node-text-emphasis);
+}
+
 .alert-html {
   --bs-alert-color: var(--bs-html-text-emphasis);
   --bs-alert-bg: var(--bs-html-bg-subtle);
@@ -5389,32 +5367,11 @@ textarea.form-control-lg {
   --bs-alert-link-color: var(--bs-github-text-emphasis);
 }
 
-.alert-php {
-  --bs-alert-color: var(--bs-php-text-emphasis);
-  --bs-alert-bg: var(--bs-php-bg-subtle);
-  --bs-alert-border-color: var(--bs-php-border-subtle);
-  --bs-alert-link-color: var(--bs-php-text-emphasis);
-}
-
-.alert-mysql {
-  --bs-alert-color: var(--bs-mysql-text-emphasis);
-  --bs-alert-bg: var(--bs-mysql-bg-subtle);
-  --bs-alert-border-color: var(--bs-mysql-border-subtle);
-  --bs-alert-link-color: var(--bs-mysql-text-emphasis);
-}
-
-.alert-xampp {
-  --bs-alert-color: var(--bs-xampp-text-emphasis);
-  --bs-alert-bg: var(--bs-xampp-bg-subtle);
-  --bs-alert-border-color: var(--bs-xampp-border-subtle);
-  --bs-alert-link-color: var(--bs-xampp-text-emphasis);
-}
-
-.alert-jquery {
-  --bs-alert-color: var(--bs-jquery-text-emphasis);
-  --bs-alert-bg: var(--bs-jquery-bg-subtle);
-  --bs-alert-border-color: var(--bs-jquery-border-subtle);
-  --bs-alert-link-color: var(--bs-jquery-text-emphasis);
+.alert-mariadb {
+  --bs-alert-color: var(--bs-mariadb-text-emphasis);
+  --bs-alert-bg: var(--bs-mariadb-bg-subtle);
+  --bs-alert-border-color: var(--bs-mariadb-border-subtle);
+  --bs-alert-link-color: var(--bs-mariadb-text-emphasis);
 }
 
 .alert-photoshop {
@@ -5829,6 +5786,32 @@ textarea.form-control-lg {
   --bs-list-group-active-border-color: var(--bs-dark-text-emphasis);
 }
 
+.list-group-item-react {
+  --bs-list-group-color: var(--bs-react-text-emphasis);
+  --bs-list-group-bg: var(--bs-react-bg-subtle);
+  --bs-list-group-border-color: var(--bs-react-border-subtle);
+  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
+  --bs-list-group-action-hover-bg: var(--bs-react-border-subtle);
+  --bs-list-group-action-active-color: var(--bs-emphasis-color);
+  --bs-list-group-action-active-bg: var(--bs-react-border-subtle);
+  --bs-list-group-active-color: var(--bs-react-bg-subtle);
+  --bs-list-group-active-bg: var(--bs-react-text-emphasis);
+  --bs-list-group-active-border-color: var(--bs-react-text-emphasis);
+}
+
+.list-group-item-node {
+  --bs-list-group-color: var(--bs-node-text-emphasis);
+  --bs-list-group-bg: var(--bs-node-bg-subtle);
+  --bs-list-group-border-color: var(--bs-node-border-subtle);
+  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
+  --bs-list-group-action-hover-bg: var(--bs-node-border-subtle);
+  --bs-list-group-action-active-color: var(--bs-emphasis-color);
+  --bs-list-group-action-active-bg: var(--bs-node-border-subtle);
+  --bs-list-group-active-color: var(--bs-node-bg-subtle);
+  --bs-list-group-active-bg: var(--bs-node-text-emphasis);
+  --bs-list-group-active-border-color: var(--bs-node-text-emphasis);
+}
+
 .list-group-item-html {
   --bs-list-group-color: var(--bs-html-text-emphasis);
   --bs-list-group-bg: var(--bs-html-bg-subtle);
@@ -5920,56 +5903,17 @@ textarea.form-control-lg {
   --bs-list-group-active-border-color: var(--bs-github-text-emphasis);
 }
 
-.list-group-item-php {
-  --bs-list-group-color: var(--bs-php-text-emphasis);
-  --bs-list-group-bg: var(--bs-php-bg-subtle);
-  --bs-list-group-border-color: var(--bs-php-border-subtle);
+.list-group-item-mariadb {
+  --bs-list-group-color: var(--bs-mariadb-text-emphasis);
+  --bs-list-group-bg: var(--bs-mariadb-bg-subtle);
+  --bs-list-group-border-color: var(--bs-mariadb-border-subtle);
   --bs-list-group-action-hover-color: var(--bs-emphasis-color);
-  --bs-list-group-action-hover-bg: var(--bs-php-border-subtle);
+  --bs-list-group-action-hover-bg: var(--bs-mariadb-border-subtle);
   --bs-list-group-action-active-color: var(--bs-emphasis-color);
-  --bs-list-group-action-active-bg: var(--bs-php-border-subtle);
-  --bs-list-group-active-color: var(--bs-php-bg-subtle);
-  --bs-list-group-active-bg: var(--bs-php-text-emphasis);
-  --bs-list-group-active-border-color: var(--bs-php-text-emphasis);
-}
-
-.list-group-item-mysql {
-  --bs-list-group-color: var(--bs-mysql-text-emphasis);
-  --bs-list-group-bg: var(--bs-mysql-bg-subtle);
-  --bs-list-group-border-color: var(--bs-mysql-border-subtle);
-  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
-  --bs-list-group-action-hover-bg: var(--bs-mysql-border-subtle);
-  --bs-list-group-action-active-color: var(--bs-emphasis-color);
-  --bs-list-group-action-active-bg: var(--bs-mysql-border-subtle);
-  --bs-list-group-active-color: var(--bs-mysql-bg-subtle);
-  --bs-list-group-active-bg: var(--bs-mysql-text-emphasis);
-  --bs-list-group-active-border-color: var(--bs-mysql-text-emphasis);
-}
-
-.list-group-item-xampp {
-  --bs-list-group-color: var(--bs-xampp-text-emphasis);
-  --bs-list-group-bg: var(--bs-xampp-bg-subtle);
-  --bs-list-group-border-color: var(--bs-xampp-border-subtle);
-  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
-  --bs-list-group-action-hover-bg: var(--bs-xampp-border-subtle);
-  --bs-list-group-action-active-color: var(--bs-emphasis-color);
-  --bs-list-group-action-active-bg: var(--bs-xampp-border-subtle);
-  --bs-list-group-active-color: var(--bs-xampp-bg-subtle);
-  --bs-list-group-active-bg: var(--bs-xampp-text-emphasis);
-  --bs-list-group-active-border-color: var(--bs-xampp-text-emphasis);
-}
-
-.list-group-item-jquery {
-  --bs-list-group-color: var(--bs-jquery-text-emphasis);
-  --bs-list-group-bg: var(--bs-jquery-bg-subtle);
-  --bs-list-group-border-color: var(--bs-jquery-border-subtle);
-  --bs-list-group-action-hover-color: var(--bs-emphasis-color);
-  --bs-list-group-action-hover-bg: var(--bs-jquery-border-subtle);
-  --bs-list-group-action-active-color: var(--bs-emphasis-color);
-  --bs-list-group-action-active-bg: var(--bs-jquery-border-subtle);
-  --bs-list-group-active-color: var(--bs-jquery-bg-subtle);
-  --bs-list-group-active-bg: var(--bs-jquery-text-emphasis);
-  --bs-list-group-active-border-color: var(--bs-jquery-text-emphasis);
+  --bs-list-group-action-active-bg: var(--bs-mariadb-border-subtle);
+  --bs-list-group-active-color: var(--bs-mariadb-bg-subtle);
+  --bs-list-group-active-bg: var(--bs-mariadb-text-emphasis);
+  --bs-list-group-active-border-color: var(--bs-mariadb-text-emphasis);
 }
 
 .list-group-item-photoshop {
@@ -7521,6 +7465,16 @@ textarea.form-control-lg {
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
 }
 
+.text-bg-react {
+  color: #000 !important;
+  background-color: RGBA(83, 210, 250, var(--bs-bg-opacity, 1)) !important;
+}
+
+.text-bg-node {
+  color: #000 !important;
+  background-color: RGBA(138, 196, 0, var(--bs-bg-opacity, 1)) !important;
+}
+
 .text-bg-html {
   color: #000 !important;
   background-color: RGBA(228, 77, 38, var(--bs-bg-opacity, 1)) !important;
@@ -7556,24 +7510,9 @@ textarea.form-control-lg {
   background-color: RGBA(27, 31, 35, var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-php {
-  color: #000 !important;
-  background-color: RGBA(122, 134, 184, var(--bs-bg-opacity, 1)) !important;
-}
-
-.text-bg-mysql {
+.text-bg-mariadb {
   color: #fff !important;
   background-color: RGBA(19, 101, 148, var(--bs-bg-opacity, 1)) !important;
-}
-
-.text-bg-xampp {
-  color: #000 !important;
-  background-color: RGBA(251, 122, 36, var(--bs-bg-opacity, 1)) !important;
-}
-
-.text-bg-jquery {
-  color: #fff !important;
-  background-color: RGBA(8, 104, 172, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-photoshop {
@@ -7653,6 +7592,24 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(26, 30, 33, var(--bs-link-underline-opacity, 1)) !important;
 }
 
+.link-react {
+  color: RGBA(var(--bs-react-rgb), var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(var(--bs-react-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+.link-react:hover, .link-react:focus {
+  color: RGBA(117, 219, 251, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(117, 219, 251, var(--bs-link-underline-opacity, 1)) !important;
+}
+
+.link-node {
+  color: RGBA(var(--bs-node-rgb), var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(var(--bs-node-rgb), var(--bs-link-underline-opacity, 1)) !important;
+}
+.link-node:hover, .link-node:focus {
+  color: RGBA(161, 208, 51, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(161, 208, 51, var(--bs-link-underline-opacity, 1)) !important;
+}
+
 .link-html {
   color: RGBA(var(--bs-html-rgb), var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(var(--bs-html-rgb), var(--bs-link-underline-opacity, 1)) !important;
@@ -7716,40 +7673,13 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(22, 25, 28, var(--bs-link-underline-opacity, 1)) !important;
 }
 
-.link-php {
-  color: RGBA(var(--bs-php-rgb), var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(var(--bs-php-rgb), var(--bs-link-underline-opacity, 1)) !important;
+.link-mariadb {
+  color: RGBA(var(--bs-mariadb-rgb), var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(var(--bs-mariadb-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
-.link-php:hover, .link-php:focus {
-  color: RGBA(149, 158, 198, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(149, 158, 198, var(--bs-link-underline-opacity, 1)) !important;
-}
-
-.link-mysql {
-  color: RGBA(var(--bs-mysql-rgb), var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(var(--bs-mysql-rgb), var(--bs-link-underline-opacity, 1)) !important;
-}
-.link-mysql:hover, .link-mysql:focus {
+.link-mariadb:hover, .link-mariadb:focus {
   color: RGBA(15, 81, 118, var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(15, 81, 118, var(--bs-link-underline-opacity, 1)) !important;
-}
-
-.link-xampp {
-  color: RGBA(var(--bs-xampp-rgb), var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(var(--bs-xampp-rgb), var(--bs-link-underline-opacity, 1)) !important;
-}
-.link-xampp:hover, .link-xampp:focus {
-  color: RGBA(252, 149, 80, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(252, 149, 80, var(--bs-link-underline-opacity, 1)) !important;
-}
-
-.link-jquery {
-  color: RGBA(var(--bs-jquery-rgb), var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(var(--bs-jquery-rgb), var(--bs-link-underline-opacity, 1)) !important;
-}
-.link-jquery:hover, .link-jquery:focus {
-  color: RGBA(6, 83, 138, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(6, 83, 138, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-photoshop {
@@ -8197,6 +8127,14 @@ textarea.form-control-lg {
   --bs-focus-ring-color: rgba(var(--bs-dark-rgb), var(--bs-focus-ring-opacity));
 }
 
+.focus-ring-react {
+  --bs-focus-ring-color: rgba(var(--bs-react-rgb), var(--bs-focus-ring-opacity));
+}
+
+.focus-ring-node {
+  --bs-focus-ring-color: rgba(var(--bs-node-rgb), var(--bs-focus-ring-opacity));
+}
+
 .focus-ring-html {
   --bs-focus-ring-color: rgba(var(--bs-html-rgb), var(--bs-focus-ring-opacity));
 }
@@ -8225,20 +8163,8 @@ textarea.form-control-lg {
   --bs-focus-ring-color: rgba(var(--bs-github-rgb), var(--bs-focus-ring-opacity));
 }
 
-.focus-ring-php {
-  --bs-focus-ring-color: rgba(var(--bs-php-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-mysql {
-  --bs-focus-ring-color: rgba(var(--bs-mysql-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-xampp {
-  --bs-focus-ring-color: rgba(var(--bs-xampp-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-jquery {
-  --bs-focus-ring-color: rgba(var(--bs-jquery-rgb), var(--bs-focus-ring-opacity));
+.focus-ring-mariadb {
+  --bs-focus-ring-color: rgba(var(--bs-mariadb-rgb), var(--bs-focus-ring-opacity));
 }
 
 .focus-ring-photoshop {
@@ -8405,6 +8331,16 @@ textarea.form-control-lg {
   border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
 }
 
+.border-react {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-react-rgb), var(--bs-border-opacity)) !important;
+}
+
+.border-node {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-node-rgb), var(--bs-border-opacity)) !important;
+}
+
 .border-html {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-html-rgb), var(--bs-border-opacity)) !important;
@@ -8440,24 +8376,9 @@ textarea.form-control-lg {
   border-color: rgba(var(--bs-github-rgb), var(--bs-border-opacity)) !important;
 }
 
-.border-php {
+.border-mariadb {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-php-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-mysql {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-mysql-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-xampp {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-xampp-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-jquery {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-jquery-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-mariadb-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-photoshop {
@@ -9422,6 +9343,16 @@ textarea.form-control-lg {
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-react {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-react-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-node {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-node-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-html {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-html-rgb), var(--bs-text-opacity)) !important;
@@ -9457,24 +9388,9 @@ textarea.form-control-lg {
   color: rgba(var(--bs-github-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-php {
+.text-mariadb {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-php-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-mysql {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-mysql-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-xampp {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-xampp-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-jquery {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-jquery-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-mariadb-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-photoshop {
@@ -9684,6 +9600,16 @@ textarea.form-control-lg {
   text-decoration-color: rgba(var(--bs-dark-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
+.link-underline-react {
+  --bs-link-underline-opacity: 1;
+  text-decoration-color: rgba(var(--bs-react-rgb), var(--bs-link-underline-opacity)) !important;
+}
+
+.link-underline-node {
+  --bs-link-underline-opacity: 1;
+  text-decoration-color: rgba(var(--bs-node-rgb), var(--bs-link-underline-opacity)) !important;
+}
+
 .link-underline-html {
   --bs-link-underline-opacity: 1;
   text-decoration-color: rgba(var(--bs-html-rgb), var(--bs-link-underline-opacity)) !important;
@@ -9719,24 +9645,9 @@ textarea.form-control-lg {
   text-decoration-color: rgba(var(--bs-github-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
-.link-underline-php {
+.link-underline-mariadb {
   --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-php-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-mysql {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-mysql-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-xampp {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-xampp-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-jquery {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-jquery-rgb), var(--bs-link-underline-opacity)) !important;
+  text-decoration-color: rgba(var(--bs-mariadb-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-photoshop {
@@ -9837,6 +9748,16 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-react {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-react-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-node {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-node-rgb), var(--bs-bg-opacity)) !important;
+}
+
 .bg-html {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-html-rgb), var(--bs-bg-opacity)) !important;
@@ -9872,24 +9793,9 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-github-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-php {
+.bg-mariadb {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-php-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-mysql {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-mysql-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-xampp {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-xampp-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-jquery {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-jquery-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-mariadb-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-photoshop {
