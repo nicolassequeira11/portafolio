@@ -2,6 +2,7 @@ import { DarkModeContext } from "../../context/DarkModeContext";
 import { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import PropTypes from 'prop-types';
 
 export const ExperienceCard = ({ image, logo, title, description, link}) => {
   const { darkmode } = useContext(DarkModeContext);
@@ -53,3 +54,11 @@ export const ExperienceCard = ({ image, logo, title, description, link}) => {
     </div>
   )
 }
+
+ExperienceCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  logo: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+};

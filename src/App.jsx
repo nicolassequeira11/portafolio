@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.css'
 import { Route, Routes, HashRouter as BrowserRouter, useNavigate } from "react-router-dom";
 

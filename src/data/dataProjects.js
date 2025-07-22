@@ -95,22 +95,22 @@ export const dataProjects = [
       {name:"Photoshop", img:"./media/skills-projects/photoshop.png"}   
     ]
   },
-  {
-    "name":"Veterinaria Santa Clara", 
-    "logo":"./media/projects/veterinaria-logo.png", 
-    "logoDark":"./media/projects/veterinaria-logo-darkmode.png",
-    "img":"./media/projects/veterinaria-mockup.png", 
-    "gif":"./media/projects/veterinaria-gif.gif",
-    "url": "https://nicolassequeira.000webhostapp.com/",
-    "skills": [
-      {name:"HTML", img:"./media/skills-projects/html.png"},
-      {name:"CSS", img:"./media/skills-projects/css.png"},
-      {name:"Sass", img:"./media/skills-projects/sass.png"},
-      {name:"Javascript", img:"./media/skills-projects/js.png"},
-      {name:"Bootstrap", img:"./media/skills-projects/bootstrap.png"},
-      {name:"Photoshop", img:"./media/skills-projects/photoshop.png"}
-    ]
-  },
+  // {
+  //   "name":"Veterinaria Santa Clara", 
+  //   "logo":"./media/projects/veterinaria-logo.png", 
+  //   "logoDark":"./media/projects/veterinaria-logo-darkmode.png",
+  //   "img":"./media/projects/veterinaria-mockup.png", 
+  //   "gif":"./media/projects/veterinaria-gif.gif",
+  //   "url": "https://nicolassequeira.000webhostapp.com/",
+  //   "skills": [
+  //     {name:"HTML", img:"./media/skills-projects/html.png"},
+  //     {name:"CSS", img:"./media/skills-projects/css.png"},
+  //     {name:"Sass", img:"./media/skills-projects/sass.png"},
+  //     {name:"Javascript", img:"./media/skills-projects/js.png"},
+  //     {name:"Bootstrap", img:"./media/skills-projects/bootstrap.png"},
+  //     {name:"Photoshop", img:"./media/skills-projects/photoshop.png"}
+  //   ]
+  // },
   {
     "name":"Azul Estetica", 
     "logo":"./media/projects/peluqueria-logo.png", 

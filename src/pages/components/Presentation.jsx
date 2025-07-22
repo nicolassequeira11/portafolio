@@ -18,8 +18,8 @@ export const Presentation = () => {
       >
         <p>
           {language 
-            ? "Desarrollador frontend con 2 años de experiencia, especializado en React, Tailwind y Typescript." 
-            : "Frontend developer with 2 years of experience, specialized in React, Tailwind, and Typescript."
+            ? "Impulso tu presencia online con interfaces modernas y sitios web que convierten: páginas corporativas, landing pages y e-commerce en WordPress diseñados para destacar." 
+            : "I boost your online presence with modern interfaces and high-converting websites: corporate pages, landing pages, and WordPress e-commerce designed to stand out."
           }
         </p>
         <p className="mt-5">
